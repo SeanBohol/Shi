@@ -70,7 +70,7 @@ body {
 
 .ct2 {
     background-color: var(--bg--color);
-    background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957061.jpg&fm=jpg);
+    background-image: url(night-sky.jpg);
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .ct2 h1{
     font-size: 17vw;
-    background-image: url(https://www.hdwallpapers.in/download/landscape_view_of_city_buildings_in_dark_purple_starry_sky_background_hd_synthwave-1920x1080.jpg);
+    background-image: url(dark-vio-ls.jpg);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
