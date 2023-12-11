@@ -249,7 +249,7 @@ span {
     box-shadow: 0 0 1rem var(--main--color);
 }
 
-.ct6 h5, p {
+.ct6 h3, p {
     font-size: 1rem;
     color: var(--text--color);
     line-height: 4rem;
@@ -257,7 +257,7 @@ span {
     display: flex;
 }
 
-.ct6 h5 {
+.ct6 h3 {
     color: var(--bg--color);
     font-size: 1.5rem;
 }
