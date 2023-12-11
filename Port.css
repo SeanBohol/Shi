@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --bg--color: #00000067;
+    --second-bg--color: #192030;
+    --text--color: whitesmoke;
+    --main--color: rgba(209, 50, 220, 0.603);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ct1 {
+    background-color: var(--bg--color);
+    background: rgb(0, 0, 0, 1);
+    padding-right: 2rem;
+}
+
+.logo-n {
+    font-size: 2rem;
+}
+
+.S {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 5rem;
+}
+
+.nav-item,.nav-link {
+    color: white;
+    
+}
+
+.ct1 p {
+    color: var(--text--color);
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.Logo {
+    width: 6rem;
+    height: 5rem;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: var(--main--color);
+    color: var(--main--color);
+}
+
+
+
+.nav-item a:hover,.nav-item a.active {
+    color: var(--main--color);
+}
+
+.nav-item a:hover {
+    box-shadow: 10px 7px 5px var(--main--color);
+}
+
+.ct2 {
+    background-color: var(--bg--color);
+    background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957061.jpg&fm=jpg);
+    background-size: cover;
+}
+
+
+
+.ct2 h1{
+    font-size: 17vw;
+    background-image: url(https://www.hdwallpapers.in/download/landscape_view_of_city_buildings_in_dark_purple_starry_sky_background_hd_synthwave-1920x1080.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    justify-content: center;
+    display: flex;
+    padding-top: 15rem;
+    padding-bottom: 15rem;           
+}
+
+.ct3 {
+    background-color: var(--second-bg--color);
+    color: var(--text--color);
+    padding-top: 13rem;
+    padding-left: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: var(--main--color);
+   
+}
+
+.ct3 h1{
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: .8;
+    
+}
+
+.ct3 h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.ct3 p{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+    
+.home-img {
+    width: 40vw;
+    backdrop-filter: var(--main--color);
+    padding-bottom: 6vw;
+    padding-right: 12vw;
+    filter: drop-shadow(18px 8px 10px rgb(210,50,220));
+}
+
+.ct4 {
+    background-color: var(--bg--color);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn {
+    width: 55%;
+    height: auto;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    background-color: var(--main--color);
+    border-radius: 2rem;
+    box-shadow: none;
+    font-size: 1rem;
+    color: var(--text--color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 4rem var(--main--color);
+    background-color: var(--bg--color);
+    color: var(--main--color);
+}
+
+.hobby {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.txth {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+
+.ct5 {
+    background-color: var(--second-bg--color);
+    padding-bottom: 12rem;
+}
+
+.ct5 p {
+    font-size: 6vw;
+    font-weight: 200;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.carousel-inner {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.carousel-caption {
+    color: var(--main--color);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: var(--main--color);
+    background-color: var(--main--color);
+}
+
+.ct6 {
+    background-color: var(--bg--color);
+    
+}
+
+.ct6 h1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    /* border: .2rem solid var(--bg--color); */
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--text--color);
+    transition: .5s ease;
+    margin: auto;
+    
+    
+}
+
+.social-media a:hover {
+    background: var(--main--color);
+    color: var(--bg--color);
+    box-shadow: 0 0 1rem var(--main--color);
+}
+
+.ct6 h5, p {
+    font-size: 1rem;
+    color: var(--text--color);
+    line-height: 4rem;
+    justify-content: center;
+    display: flex;
+}
+
+.ct6 h5 {
+    color: var(--bg--color);
+}
+
+.ct6 p {
+    line-height: 1px;
+}
+
+@media (max-width:800px) {
+    .carousel-caption {
+        display: none;
+    }
+}
